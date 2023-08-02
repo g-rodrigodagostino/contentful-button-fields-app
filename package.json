@@ -1,0 +1,35 @@
+{
+  "name": "contentful-color-palette-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "create-app-definition": "contentful-app-scripts create-app-definition",
+    "upload": "contentful-app-scripts upload --bundle-dir ./dist",
+    "upload-ci": "contentful-app-scripts upload --ci --bundle-dir ./dist  --organization-id $CONTENTFUL_ORG_ID --definition-id $CONTENTFUL_APP_DEF_ID --token $CONTENTFUL_ACCESS_TOKEN"
+  },
+  "dependencies": {
+    "@contentful/app-sdk": "4.22.1",
+    "@contentful/f36-components": "4.48.0",
+    "@contentful/f36-tokens": "4.0.2",
+    "@contentful/react-apps-toolkit": "1.2.16",
+    "contentful-management": "10.39.2",
+    "emotion": "10.0.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@contentful/app-scripts": "1.10.2",
+    "@testing-library/react": "14.0.0",
+    "@types/node": "16.18.39",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "4.0.3",
+    "happy-dom": "9.20.3",
+    "typescript": "5.1.6",
+    "vite": "4.4.7",
+    "vitest": "0.33.0"
+  }
+}
