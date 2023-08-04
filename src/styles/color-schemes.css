@@ -1,0 +1,44 @@
+:root {
+  --color-scheme: light;
+  --text-color: var(--slate);
+  --background-color: var(--paper);
+
+  /* Color palette */
+  --slate: #041527;
+  --neutral-800: #223140;
+  --neutral-700: #3f4c5a;
+  --neutral-600: #5d6773;
+  --neutral-500: #7a838c;
+  --neutral-400: #989fa5;
+  --neutral-300: #b6babe;
+  --neutral-200: #d3d5d8;
+  --neutral-100: #f1f1f1;
+  --stone: #f1f1f1;
+  --paper: #ffffff;
+  --blue: #0057ff;
+  --aqua: #00b4d8;
+  --sky-100: #e1effe;
+  --sky: #c4e0fd;
+  --marigold-500: #f3b521;
+  --marigold-200: #ffe3b2;
+  --sand: #ffe3b2;
+  --clay-600: #ce5a21;
+  --clay-400: #ec9069;
+  --clay-200: #f6c8b4;
+  --coral: #ec9069;
+  --aqua-800: #093e48;
+  --aqua-100: #caf0f8;
+  --aqua-200: #87dced;
+  --deep-teal: #093e48;
+  --light-teal: #caf0f8;
+  --transparent: transparent;
+  --ui-error-light: #fff0f4;
+  --ui-error: #db0629;
+  --ui-error-dark: #841531;
+  --ui-success-light: #d7efdc;
+  --ui-success: #1bb157;
+  --ui-success-dark: #0f7134;
+  --ui-warning-light: #feedaf;
+  --ui-warning: #fbc916;
+  --ui-warning-dark: #423200;
+}
